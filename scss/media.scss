@@ -22,6 +22,9 @@
         .header__burger {
             display: block;
         }
+        .header__burger__dropdown.opened, .header__burger__dropdown.opened nav {
+            display: block;
+        }
     }
     main {
         margin-top: 148px;
@@ -65,6 +68,7 @@
         }
         &__images__item {
             height: 273px;
+            transform: none!important;
             padding: 10px 10px;
             img {
                 min-width: 100px;
@@ -117,12 +121,22 @@
 @media screen and (max-width: 600px) {
     header {
         height: 39px;
+        .logo {
+            width: 140px;
+        }
         .header__burger__icon {
 
             width: 16px;
             height: 16px;
         }
+        .header__burger {
+            margin-right: 10px;
+            &__dropdown {
+                top: 39px;
+            }
+        }
     }
+
     main {
         margin-top: 80px;
     }
@@ -161,6 +175,12 @@
         .btn {
             width: 100%;
         }
+    }
+    .about-block {
+        margin-top: 50px;
+    }
+    .features-block {
+        margin-top: 10px;
     }
     .features-block__images {
         padding: 0 40px;

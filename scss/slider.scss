@@ -19,6 +19,7 @@
         min-width: 100%;
         text-align: center;
         padding: 0px 50px;
+
         &__title {
             font-size: 22px;
             font-weight: 600;
@@ -31,6 +32,31 @@
             color: #fff;
             padding: 20px;
             line-height: 29px;
+            position: relative;
+            &:before {
+                content: '';
+                background: url(../img/q.svg);
+                position: absolute;
+                width: 27px;
+                height: 30px;
+                left: -30px;
+                bottom: 0;
+                top: -80px;
+                margin: auto;
+
+            }
+            &:after {
+                content: '';
+                background: url(../img/q.svg);
+                position: absolute;
+                width: 27px;
+                height: 30px;
+                right: -30px;
+                bottom: 0;
+                top: 80px;
+                margin: auto;
+                transform: rotate(180deg);
+            }
 
         }
     }

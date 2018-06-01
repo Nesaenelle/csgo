@@ -157,41 +157,64 @@ function isInViewport(el) {
 }());
 
 
-// (function() {
-//     var counterItems = document.querySelectorAll('[data-paralax]');
-//     var images = document.querySelector('.about-block__images');
+(function() {
+    var counterItems = document.querySelectorAll('[data-paralax]');
+    var images = document.querySelector('.about-block__images');
 
-//     window.addEventListener('scroll', function(e) {
-//         if (isInViewport(images)) {
-//             counterItems.forEach(function(item) {
-//                 var val = (offset(images).top - window.pageYOffset) / 2 * parseFloat(item.getAttribute('data-paralax')); //checkScrollSpeed() + 'px';
-//                 item.style.transform = 'translateY(' + val + 'px)'
-//             });
-//         }
-//     });
+    window.addEventListener('scroll', function(e) {
+        if (isInViewport(images)) {
+            counterItems.forEach(function(item) {
+                var val = (offset(images).top - window.pageYOffset * 1.5) / 2 * parseFloat(item.getAttribute('data-paralax')); //checkScrollSpeed() + 'px';
+                item.style.transform = 'translateY(' + (val > 0 ? val : 0) + 'px)'
+            });
+        }
+    });
 
-//     var checkScrollSpeed = (function(settings) {
-//         settings = settings || {};
+    // var checkScrollSpeed = (function(settings) {
+    //     settings = settings || {};
 
-//         var lastPos, newPos, timer, delta,
-//             delay = settings.delay || 50; // in "ms" (higher means lower fidelity )
+    //     var lastPos, newPos, timer, delta,
+    //         delay = settings.delay || 50; // in "ms" (higher means lower fidelity )
 
-//         function clear() {
-//             lastPos = null;
-//             delta = 0;
-//         }
+    //     function clear() {
+    //         lastPos = null;
+    //         delta = 0;
+    //     }
 
-//         clear();
+    //     clear();
 
-//         return function() {
-//             newPos = window.scrollY;
-//             if (lastPos != null) { // && newPos < maxScroll 
-//                 delta = newPos - lastPos;
-//             }
-//             lastPos = newPos;
-//             clearTimeout(timer);
-//             timer = setTimeout(clear, delay);
-//             return delta;
-//         };
-//     })();
-// }());
+    //     return function() {
+    //         newPos = window.scrollY;
+    //         if (lastPos != null) { // && newPos < maxScroll 
+    //             delta = newPos - lastPos;
+    //         }
+    //         lastPos = newPos;
+    //         clearTimeout(timer);
+    //         timer = setTimeout(clear, delay);
+    //         return delta;
+    //     };
+    // })();
+}());
+
+(function() {
+    var burgerBtn = document.querySelector('.header__burger');
+    var dropdown = document.querySelector('.header__burger__dropdown');
+
+    dropdown.querySelector('.header__burger__dropdown__close').addEventListener('click', function(e) {
+        dropdown.classList.remove('opened');
+    }, false);
+
+    burgerBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        if (dropdown.classList.contains('opened')) {
+            dropdown.classList.remove('opened');
+        } else {
+            dropdown.classList.add('opened');
+        }
+    }, false);
+    window.addEventListener('click', function(e) {
+        if (!dropdown.contains(e.target)) {
+            dropdown.classList.remove('opened');
+        }
+    }, false);
+}());

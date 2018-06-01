@@ -8,7 +8,8 @@
     <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"> -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400, 500, 600,700" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,500,600,700,900" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
 </head>
 
 <body>
@@ -19,8 +20,18 @@
                 <div class="header__burger">
                     <div class="header__burger__icon"></div>
                 </div>
+                <div class="header__burger__dropdown">
+                    <div class="header__burger__dropdown__close"></div>
+                    <nav>
+                        <ul>
+                            <li class="active" data-navigation-link="0"><a href="#about">What it this</a></li>
+                            <li data-navigation-link="1"><a href="#features">Features</a></li>
+                            <li data-navigation-link="2"><a href="#feedback">What says about</a></li>
+                        </ul>
+                    </nav>
+                </div>
 
-                <a href="#home" class="logo"><img src="img/logo.png"></a>
+                <a href="#home" class="logo"><img src="img/logoSM.svg"></a>
             </div>
             
             <a href="#form" class="mobile">
@@ -68,17 +79,17 @@
                 <p class="discription-text">We`re also using WordPress and we recognized that there are too much time for managing every part of content, pages or posts, all plugins updating or sites backups. So we decided to create the new product which will help WordPress users</p>
             </div>
             <div class="about-block__images">
-                <div class="about-block__images__item" data-paralax="0">
+                <div class="about-block__images__item" data-paralax="0.2">
                     <img src="img/1.svg" alt="">
                     <p class="about-block__images__item__text">Managing the content takes a lot of time</p>
                 </div>
-                <div class="about-block__images__item" data-paralax="0.25">
+                <div class="about-block__images__item" data-paralax="0">
                     <img src="img/2.svg" alt="">
                     <p class="about-block__images__item__text">Forgot to create a
                         <br> backup in time and lost
                         <br>the data</p>
                 </div>
-                <div class="about-block__images__item" data-paralax="0.5">
+                <div class="about-block__images__item" data-paralax="0.8">
                     <img src="img/12.svg" alt="">
                     <p class="about-block__images__item__text">Having to manage each site separately</p>
                 </div>
