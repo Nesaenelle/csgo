@@ -2,7 +2,7 @@
     background: url(img/CS_bg_2.jpg);
     background-position: center top;
     background-size: cover;
-    $c: &;
+
     main {
         // padding-top: 50px;
         min-height: calc(100% - 60px);
@@ -135,9 +135,6 @@
             &__item {
             	margin: 0 0 20px 0;
             }
-        }
-        #{$c} {
-        	background-size: initial;
         }
     }
 
