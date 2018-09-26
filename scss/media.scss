@@ -15,7 +15,9 @@
 }
 @media screen and (max-width: 980px) {
 
-
+	body, html{
+		height: auto;
+	}
 }
 
 @media screen and (max-width: 860px) {}
@@ -29,6 +31,7 @@
 }
 
 @media screen and (max-width: 600px) {
+
 	.container {
 	    padding: 0 20px;
 	}
