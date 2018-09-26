@@ -10,15 +10,19 @@
 		align-items: center;
 		display: flex;
 		justify-content: space-between;
-		padding: 20px 20px;
+		padding: 20px 40px;
 	}
 	&__socials {
 		display: flex;
 		justify-content: space-between;
 		&_item {
-			width: 30px;
-			height: 30px;
-			margin: 0 10px;
+			width: 24px;
+			height: 24px;
+			margin: 0 7px;
+			transition: 0.1s;
+			&:hover {
+				transform: scale(1.05);
+			}
 			img {
 				display: block;
 				width: 100%;

@@ -91,8 +91,12 @@ main {
         align-items: center;
         justify-content: center;
         cursor: pointer;
+        transition:0.2s;
         &:active {
             transform: translateY(1px);
+        }
+        &:hover {
+            background: darken(#1991eb, 10%);
         }
         img {
             margin-right: 5px;

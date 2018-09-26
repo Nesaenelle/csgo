@@ -1,13 +1,5 @@
 /* MOBILES */
 
-.desktop {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.mobile {
-    display: none;
-}
 
 @media screen and (max-width: 1800px) {}
 
@@ -16,375 +8,47 @@
 @media screen and (max-width: 1440px) {}
 
 @media screen and (max-width: 1280px) {
-    .ranks__steps_item ul li {
-        font-size: 22px;
-    }
+
 }
 @media screen and (max-width: 1120px) {
-    .ranks__steps_mobile {
-        display: block;
-    }
-    .ranks__steps_desktop {
-        display: none;
-    }
+
 }
 @media screen and (max-width: 980px) {
-    .header .socials {
-        display: none;
-    }
-    .header {
-        padding-top: 20px;
-        height: auto;
-        .logo {
-            width: 124px;
-        }
-        .phone {
-            padding-top: 0;
-        }
-        .title {
-            width: 100%;
-        }
-        .container.top {
-            align-items: center;
-        }
-        .container.middle {
-            padding-left: 40px;
-        }
-        ul {
-            margin-top: 25px;
-            margin-bottom: 20px;
-        }
-        .main-form {
-            margin-top: 0;
-            display: block;
-            width: 330px;
-            padding: 20px 50px;
-            margin-bottom: 55px;
-            input {
-                width: 100%;
-                margin-bottom: 12px;
-            }
-        }
-    }
 
-
-    .usefull {
-        margin-top: 60px;
-    }
-    .usefull__list_item {
-        width: calc(100%/3 - 30px);
-    }
-    .usefull__list_item_img {
-        width: 158px;
-        height: 158px;
-    }
-    .usefull__list_item_text {
-        font-size: 24px;
-        padding: 8px 0;
-        margin-top: 10px;
-    }
-    .advantages {
-        height: 800px;
-    }
-    .advantages__wrapper {
-        flex-direction: column-reverse;
-    }
-    .advantages__wrapper .title-2 {
-        width: 100%;
-    }
-    .advantages__bg {
-        margin-top: 20px;
-    }
-
-    .advantages__list {
-        // display: none;
-        top: calc(100% - 120px);
-    }
-    .ranks__steps {
-        padding: 0;
-    }
-    .ranks__descr {
-        width: 100%;
-        font-size: 30px;
-    }
-    .ranks__steps_item > ul {
-        margin-left: 80px;
-    }
-    .ranks__steps_item ul li {
-        font-size: 20px;
-        line-height: 24px;
-        b {
-            font-size: 22px;
-            position: relative;
-            top: 2px;
-        }
-    }
-    .ranks__steps_arrows_right {
-        right: -30px;
-    }
-    .ranks__steps_arrows_left {
-        left: -30px;
-    }
-    .ranks__steps_item {
-        height: 390px;
-    }
-    .ranks__subscribe {
-        margin-left: 0;
-        width: 60%;
-        img {
-            display: none;
-        }
-    }
-    .main-form.secondary {
-        width: 225px;
-        padding: 0;
-        display: block;
-        margin-right: 100px;
-        margin-top: 30px;
-
-        input {
-            width: 100%;
-            margin-bottom: 15px;
-        }
-    }
-    .ranks {
-        .container.bottom {
-            display: flex;
-            justify-content: space-between;
-        }
-        &__steps_item > ul {
-            margin-top: 170px;
-        }
-        &__steps_item_number {
-            font-size: 250px;
-            // line-height: 150px;
-        }
-    }
-    .footer {
-        margin-top: 40px;
-        .footer__left img {
-            width: 95px;
-        }
-        .container {
-            padding: 27px 20px 27px;
-        }
-    }
 
 }
 
 @media screen and (max-width: 860px) {}
 
 @media screen and (max-width: 768px) {
-    .usefull__list_item_text {
-        font-size: 20px;
-    }
-    .ranks__steps_item > ul {
-        margin-top: 140px;
-    }
-    .ranks__steps_item_number {
-        font-size: 200px;
-        // line-height: 100px;
-    }
-    .advantages__bg img {
-        width: 100%;
-        height: auto;
-    }
+
 }
 
 @media screen and (max-width: 680px) {
-    .desktop {
-        display: none;
-    }
-    .mobile {
-        display: flex;
-    }
-    .title-2 {
-        font-size: 30px;
-        line-height: 34px;
-    }
 
-    .header {
-
-        padding-top: 10px;
-        .container.top {
-            padding: 0 14px;
-            align-items: flex-start;
-        }
-        .container.middle {
-            padding-left: 18px;
-        }
-        .logo {
-            width: 90px;
-        }
-        .phone {
-            font-size: 20px;
-            padding: 0;
-            letter-spacing: 2.3px;
-        }
-        .title {
-            font-size: 50px;
-        }
-        ul {
-            margin-bottom: 40px;
-            padding-left: 20px;
-        }
-        .main-form {
-            margin-bottom: 30px;
-            padding: 20px;
-        }
-    }
-    .header ul li {
-        font-size: 16px;
-    }
-
-    .video-banner {
-        .bonus {
-            position: static;
-            width: 100%;
-        }
-        &__text {
-            font-size: 20px;
-        }
-        .container {
-            padding-left: 20px;
-        }
-    }
-    .usefull__list {
-        // flex-wrap: wrap;
-        display: block;
-    }
-    .usefull {
-        margin-top: 40px;
-        .title-2 {
-            margin-top: 15px;
-        }
-    }
-    .usefull__list_item {
-        width: 100%;
-        max-width: 200px;
-        margin: auto;
-    }
-    .usefull__list_item_text {
-        font-size: 24px;
-    }
-    .advantages {
-        height: auto;
-    }
-    .advantages__wrapper {
-        flex-wrap: wrap;
-        flex-direction: initial;
-    }
-    .advantages__list {
-        width: 100%; // left: 0;
-        // right: 0;
-        margin: 30px auto 0;
-        position: static;
-        transform: none!important;
-        .bonus {
-            flex-wrap: wrap;
-            &__title {
-                width: 100%;
-                font-size: 30px;
-            }
-            &__text {
-                font-size: 20px;
-                line-height: 1.2em;
-            }
-        }
-    }
-
-    .advantages__bg {
-        display: none;
-    }
-    .advantages__list_item {
-        padding: 17px 15px 8px 15px;
-    }
-    .advantages__list_item_title {
-        font-size: 16px;
-        br {
-            display: none;
-        }
-    }
-    .ranks {
-        margin-top: 50px;
-    }
-    .ranks .title-2 {
-        margin-top: 20px;
-    }
-    .ranks__descr {
-        font-size: 24px;
-        text-align: center;
-        padding: 0 10px;
-    }
-    .ranks__subscribe {
-        width: 100%;
-        text-align: center;
-        font-size: 24px;
-    }
-    .ranks .container.bottom {
-        flex-wrap: wrap;
-    }
-    .ranks__steps_item_number {
-        font-size: 150px;
-        // top: 20px;
-        top: 0;
-        // line-height: 100px;
-    }
-    .ranks__steps_item > ul {
-        margin: 60px auto 20px;
-        width: 90%;
-    }
-    .ranks__steps_item {
-        height: 300px;
-    }
-
-    .ranks__steps_item ul li {
-        font-size: 14px;
-        line-height: 20px;
-    }
-    .main-form.secondary {
-        margin: 20px auto 0;
-        text-align: center;
-    }
-    .footer .container {
-        flex-wrap: wrap;
-        .footer__text {
-            font-size: 16px;
-        }
-        .footer__left, .footer__right {
-            width: 100%;
-            text-align: center;
-            .footer__text a {
-                display: block;
-                // font-weight: 500;
-                margin: 0;
-                width: 100%;
-            }
-        }
-        .footer__right {
-            padding-top: 25px;
-            .footer__text {
-                margin-bottom: 20px;
-            }
-        }
-    }
 }
 
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+	.container {
+	    padding: 0 20px;
+	}
+	.footer {
+		.container {
+			flex-wrap: wrap;
+			height: auto!important;
+			justify-content: center;
+		}
+		&__text {
+			text-align: center;
+			width: 100%;
+			margin-bottom: 10px;
+		}
+	}
+}
 
 @media screen and (max-width: 480px) {
-    .container {
-        padding: 0 20px;
-    }
-    .bonus__text {
-        br {
-            display: none;
-        }
-    }
-    .ranks__steps_item ul li {
-        font-size: 12px;
-        line-height: 18px;
-    }
+
+
 }
 
 @media screen and (max-width: 375px) {}

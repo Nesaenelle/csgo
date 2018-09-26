@@ -1,15 +1,20 @@
 .thank-you-page {
-    background: #123123;
+    background: url(img/CS_bg_2.png);
+    background-position: center top;
+    background-size: cover;
     main {
-    	// padding-top: 50px;
-    	min-height: calc(100% - 60px);
-    	display: flex;
-    	align-items: center;
+        // padding-top: 50px;
+        min-height: calc(100% - 60px);
+        display: flex;
+        align-items: center;
+        .container {
+        	width: 100%;
+        }
     }
     .header {
-    	position: absolute;
-    	top: 30px;
-    	padding: 0 106px;
+        position: absolute;
+        top: 30px;
+        padding: 0 106px;
     }
     .thx-title {
         font-size: 72px;
@@ -23,28 +28,35 @@
         line-height: 1.58;
         text-align: center;
         color: #c9ccd0;
-        margin-top: 10px;
+        margin-top: 25px;
         b {
-        	color: #fff;
+            color: #fff;
         }
     }
     .thx-more {
         font-size: 34px;
         text-align: center;
         color: #ffffff;
-        margin: 100px 0 50px;
+        font-weight: 800;
+        margin: 74px 0 20px;
     }
     .thx-steps {
         display: flex;
-        flex-wrap: wrap;
         justify-content: space-between;
-
+        width: 100%;
         &__item {
             font-size: 24px;
             line-height: 1.58;
             color: #c9ccd0;
             align-items: center;
             display: flex;
+            margin: 0 20px;
+            &:first-child {
+            	margin-left: 0;
+            }
+            &:last-child {
+            	margin-right: 0;
+            }
             img {
                 width: 65px;
                 height: 65px;
@@ -55,8 +67,8 @@
     .thx-btn {
         width: 208px;
         height: 40px;
-		margin: auto;
-		display: block;
+        margin: 20px auto 0;
+        display: block;
         background: none;
         border-radius: 10px;
         border: solid 3px #1991eb;
@@ -65,12 +77,104 @@
         font-weight: bold;
         text-align: center;
         color: #ffffff;
+        cursor: pointer;
+        outline: none;
+        transition: 0.2s;
+        &:active {
+            transform: translateY(1px);
+        }
+        &:hover {
+            background: #1991eb;
+        }
     }
     .footer {
-    	
         background: none;
         .container {
-        	height: 60px;
+            height: 60px;
+        }
+    }
+
+    @media screen and (max-width: 1280px) {
+    	main {
+    		display: block;
+    		min-height: calc(100% - 172px - 60px);
+    	}
+        .header {
+            position: static;
+            padding: 20px 0;
+        }
+        .thx-title {
+            font-size: 48px;
+            text-align: center;
+            color: #ffffff;
+            br {
+                display: none;
+            }
+        }
+        .thx-subtitle {
+            font-size: 18px;
+            line-height: 1.33;
+            text-align: center;
+            color: #c9ccd0;
+            br {
+                display: none;
+            }
+        }
+
+        .thx-steps__item {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
+    @media screen and (max-width: 980px) {
+        .thx-steps {
+            padding: 0 60px;
+            flex-wrap: wrap;
+            &__item {
+            	margin: 0 0 20px 0;
+            }
+        }
+    }
+
+    @media screen and (max-width: 680px) {
+        .thx-steps {
+            padding: 0;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .header .logo {
+            img {
+                width: 70px;
+            }
+        }
+        .thx-title {
+            font-size: 34px;
+            line-height: 1.12;
+            text-align: center;
+            color: #ffffff;
+        }
+        .thx-subtitle {
+            font-size: 14px;
+            line-height: 1.29;
+            text-align: center;
+            color: #c9ccd0;
+        }
+        .thx-more {
+            font-size: 20px;
+            text-align: center;
+            color: #ffffff;
+            margin: 65px 0 45px;
+        }
+        .thx-steps__item {
+        	font-size: 18px;
+        	line-height: 20px;
+        	color: #c9ccd0;
+        	margin: 0 0 20px 0;
+        	img {
+        		width: 50px;
+        		height: 50px;
+        	}
         }
     }
 }
