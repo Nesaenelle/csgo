@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Subscriptions</title>
+    <title>CSGO</title>
     <link rel="stylesheet" href="style.css">
     <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"> -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400, 500, 600,700" rel="stylesheet"> -->
@@ -23,8 +23,8 @@
                     <div class="front-block__title">Настало время <br>для матчмейкинга</div>
                     <div class="front-block__subtitle">Инновационная платформа для проведения турниров по CS:GO приглашает тебя принять участие в <b>BETA-тесте</b> и выйграть крутые призы!</div>
                     <div class="form">
-                        <form>
-                            <input class="form__input" type="text" placeholder="Ваш Email">
+                        <form class="play-form">
+                            <input class="form__input" type="text" placeholder="Ваш Email" data-pattern="email" data-error-text="Неверно введен email">
                             <button class="form__btn"><img src="img/arrow.svg" alt="">Играть</button>
                         </form>
                         <div class="form__descr">Мы не рассылаем спам и не будем беспокоить Вас по пустякам. Только актуальные новости.</div>
@@ -90,8 +90,8 @@
                     </div>
                 </div>
                 <div class="form">
-                    <form>
-                        <input class="form__input" type="text" placeholder="Ваш Email">
+                    <form class="play-form">
+                        <input class="form__input" type="text" placeholder="Ваш Email" data-pattern="email" data-error-text="Неверно введен email">
                         <button class="form__btn"><img src="img/arrow.svg" alt="">Играть</button>
                     </form>
                     <div class="form__descr">Мы не рассылаем спам и не будем беспокоить Вас по пустякам. Только актуальные новости.</div>
@@ -160,8 +160,8 @@
             <div class="container">
                 <div class="bottom-form__title">Помимо призов по результатам закрытого beta-теста получай скины каждую неделю!</div>
                 <div class="form">
-                    <form>
-                        <input class="form__input" type="text" placeholder="Ваш Email">
+                    <form class="play-form">
+                        <input class="form__input" type="text" placeholder="Ваш Email" data-pattern="email" data-error-text="Неверно введен email">
                         <button class="form__btn"><img src="img/arrow.svg" alt="">Играть</button>
                     </form>
                     <div class="form__descr">Мы не рассылаем спам и не будем беспокоить Вас по пустякам. Только актуальные новости.</div>
@@ -179,8 +179,8 @@
             </div>
         </div>
     </footer>
-<!--     <script src="js/core.js"></script>
-    <script src="js/all.js"></script> -->
+    <script src="js/core.js"></script>
+    <script src="js/all.js"></script>
 </body>
 
 </html>
