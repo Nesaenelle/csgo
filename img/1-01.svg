@@ -1,0 +1,28 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 175 175">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: none;
+                stroke: #080a0c;
+                opacity: 0.6;
+                stroke-width: 21px;
+            }
+
+            .cls-2 {
+                fill: #080a0c;
+                opacity: 0.6;
+            }
+        </style>
+    </defs>
+    <title>1</title>
+    <g id="Page-1">
+        <g id="Desktop-HD">
+            <g id="путь">
+                <g id="_3" data-name="3">
+                    <circle id="Oval" class="cls-1" cx="87.5" cy="87.5" r="77" />
+                </g>
+            </g>
+        </g>
+    </g>
+    <path class="cls-2" d="M83.12,140.86V63.42L65.36,81.5l-13-13.6L86,34.14h19.84V140.86Z" />
+</svg>

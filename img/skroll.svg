@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="90px" viewBox="0 0 30 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/skroll</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-946.000000, -765.000000)" fill="#FFFFFF">
+            <g id="head" transform="translate(6.000000, -4.000000)">
+                <g id="scroll" transform="translate(897.000000, 729.000000)">
+                    <g id="Icons/skroll" transform="translate(43.000000, 40.000000)">
+                        <g id="noun_scroll-down_54414">
+                            <circle id="Oval" fill-rule="nonzero" cx="15" cy="13" r="3"></circle>
+                            <path d="M15,0.5 C6.716,0.5 0,7.217 0,15.502 L0,40.498 C0,48.783 6.716,55.5 15,55.5 C23.284,55.5 30,48.783 30,40.498 L30,15.502 C30,7.217 23.284,0.5 15,0.5 Z M28,40.498 C28,47.667 22.168,53.5 15,53.5 C7.832,53.5 2,47.667 2,40.498 L2,15.502 C2,8.333 7.832,2.5 15,2.5 C22.168,2.5 28,8.333 28,15.502 L28,40.498 Z" id="Shape" fill-rule="nonzero"></path>
+                            <path d="M28.293,59.793 L15,73.086 L1.707,59.793 C1.316,59.402 0.684,59.402 0.293,59.793 C-0.098,60.184 -0.098,60.816 0.293,61.207 L14.293,75.207 C14.488,75.402 14.744,75.5 15,75.5 C15.256,75.5 15.512,75.402 15.707,75.207 L29.707,61.207 C30.098,60.816 30.098,60.184 29.707,59.793 C29.316,59.402 28.684,59.402 28.293,59.793 Z" id="Shape" fill-rule="nonzero"></path>
+                            <path d="M28.293,73.793 L15,87.086 L1.707,73.793 C1.316,73.402 0.684,73.402 0.293,73.793 C-0.098,74.184 -0.098,74.816 0.293,75.207 L14.293,89.207 C14.488,89.402 14.744,89.5 15,89.5 C15.256,89.5 15.512,89.402 15.707,89.207 L29.707,75.207 C30.098,74.816 30.098,74.184 29.707,73.793 C29.316,73.402 28.684,73.402 28.293,73.793 Z" id="Shape" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

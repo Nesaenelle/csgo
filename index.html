@@ -13,204 +13,174 @@
 </head>
 
 <body>
-    <div id="home" style="position: relative; top: -200px;"></div>
-    <header>
-        <div class="container">
-            <div class="flex a-i-c">
-                <div class="header__burger">
-                    <div class="header__burger__icon"></div>
-                </div>
-                <div class="header__burger__dropdown">
-                    <div class="header__burger__dropdown__close"></div>
-                    <nav>
-                        <ul>
-                            <li class="active" data-navigation-link="0"><a href="#about">What it this</a></li>
-                            <li data-navigation-link="1"><a href="#features">Features</a></li>
-                            <li data-navigation-link="2"><a href="#feedback">What says about</a></li>
-                        </ul>
-                    </nav>
-                </div>
-
-                <a href="#home" class="logo"><img src="img/logoSM.svg"></a>
-            </div>
-            
-            <a href="#form" class="mobile">
-                <button class="btn btn-green">Try Trial Version</button>
-            </a>
-
-            <nav>
-                <ul class="header-menu">
-                    <li class="header-menu-item active" data-navigation-link="0"><a href="#about">What it this</a></li>
-                    <li class="header-menu-item" data-navigation-link="1"><a href="#features">Features</a></li>
-                    <li class="header-menu-item" data-navigation-link="2"><a href="#feedback">What says about</a></li>
-                    <li class="header-menu-item">
-                        <a href="#form">
-                            <button class="btn btn-green">Try Trial Version</button>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
     <main>
-        <div class="first-block">
+        <div class="front-block">
             <div class="container">
-                <div class="first-block__left">
-                    <h1 class="big-title">Lorem Ipsum is unattractive, both inside and out.</h1>
-                    <p class="discription-text">We are not - we are not keeping up with other websites. It’s about making placeholder text great again. </p>
-                    <form class="sm-form">
-                        <input type="email" class="input" placeholder="Your Email" required pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" title="example@gmail.com">
-                        <button class="btn btn-green" type="submit">Try Trial Version</button>
+                <div class="header">
+                    <div class="logo"><img src="img/logo.svg" alt=""></div>
+                </div>
+                <div class="front-block__content">
+                    <div class="front-block__title">Настало время <br>для матчмейкинга</div>
+                    <div class="front-block__subtitle">Инновационная платформа для проведения турниров по CS:GO приглашает тебя принять участие в <b>BETA-тесте</b> и выйграть крутые призы!</div>
+                    <div class="form">
+                        <form>
+                            <input class="form__input" type="text" placeholder="Ваш Email">
+                            <button class="form__btn"><img src="img/arrow.svg" alt="">Играть</button>
+                        </form>
+                        <div class="form__descr">Мы не рассылаем спам и не будем беспокоить Вас по пустякам. Только актуальные новости.</div>
+                    </div>
+                    <div class="go-go">
+                        <div class="go-go__text">Go-Go-Go!</div>
+                        <img class="go-go__img" src="img/skroll.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="prizes">
+            <div class="container">
+                <div class="steps">
+                    <div class="steps__item">
+                        <img src="img/1-01.svg" alt="" class="steps__item_number">
+                        <img src="img/step_1_image.png" alt="" class="steps__item_img first">
+                        <div class="steps__item_text">Играй <br>в CS:GO</div>
+                        <img src="img/arrow_2.svg" alt="" class="steps__item_arrow">
+                    </div>
+                    <div class="steps__item">
+                        <img src="img/2-01.svg" alt="" class="steps__item_number">
+                        <img src="img/step_2_image.png" alt="" class="steps__item_img second">
+                        <div class="steps__item_text">Набивай <br>игровые часы</div>
+                        <img src="img/arrow_2.svg" alt="" class="steps__item_arrow">
+                    </div>
+                    <div class="steps__item">
+                        <img src="img/3-01.svg" alt="" class="steps__item_number">
+                        <img src="img/step_3_image.png" alt="" class="steps__item_img third">
+                        <div class="steps__item_text">Войди в ТОП <br>и получи приз!</div>
+                    </div>
+                </div>
+                <div class="pyramid">
+                    <div class="pyramid__level pyramid__level-1">
+                        <img src="img/prize_1.png" alt="">
+                        <div class="pyramid__title">Приз ТОП 1</div>
+                        <div class="pyramid__subtitle">Тут что-то написано про приз первого места! Бла-бал-бла! Все дела!</div>
+                    </div>
+                    <div class="pyramid__level pyramid__level-2">
+                        <img src="img/prize_2.png" alt="">
+                        <div class="pyramid__title">Приз ТОП 2</div>
+                        <div class="pyramid__subtitle">Тут что-то написано про приз второго места! Бла-бал-бла! Все дела!</div>
+                    </div>
+                    <div class="pyramid__level pyramid__level-2">
+                        <img src="img/prize_3.png" alt="">
+                        <div class="pyramid__title">Приз ТОП 3</div>
+                        <div class="pyramid__subtitle">Тут что-то написано про приз третьего места! Бла-бал-бла! Все дела!</div>
+                    </div>
+                    <div class="pyramid__level pyramid__level-3">
+                        <img src="img/prize_4.png" alt="">
+                        <div class="pyramid__title">Приз ТОП 10</div>
+                        <div class="pyramid__subtitle">Тут что-то написано про призы первой десятки игроков! Бла-бал-бла! Все дела!</div>
+                    </div>
+                    <div class="pyramid__level pyramid__level-3">
+                        <img src="img/prize_5.png" alt="">
+                        <div class="pyramid__title">Приз ТОП 50</div>
+                        <div class="pyramid__subtitle">Тут что-то написано про призы первой пятидесятки игроков! Бла-бал-бла! Все дела!</div>
+                    </div>
+                    <div class="pyramid__level pyramid__level-3">
+                        <img src="img/prize_6.png" alt="">
+                        <div class="pyramid__title">Приз ТОП 100</div>
+                        <div class="pyramid__subtitle">Тут что-то написано про призы первой сотни игроков! Бла-бал-бла! Все дела!</div>
+                    </div>
+                </div>
+                <div class="form">
+                    <form>
+                        <input class="form__input" type="text" placeholder="Ваш Email">
+                        <button class="form__btn"><img src="img/arrow.svg" alt="">Играть</button>
                     </form>
-                </div>
-                <div class="first-block__right">
-                    <iframe src="https://www.youtube.com/embed/xfvtPTvuFTA?showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <div class="form__descr">Мы не рассылаем спам и не будем беспокоить Вас по пустякам. Только актуальные новости.</div>
                 </div>
             </div>
         </div>
-        <div id="about" style="position: relative; top: -100px;"></div>
-        <div class="container about-block" data-navigation="0">
-            <div class="about-block__left desktop">
-                <img src="img/about.svg" alt="">
-            </div>
-            <div class="about-block__right">
-                <h1 class="big-title"><span class="green-text">About</span> SiteManager</h1>
-                <img class="mobile" src="img/about.svg" alt="">
-                <p class="discription-text">We`re also using WordPress and we recognized that there are too much time for managing every part of content, pages or posts, all plugins updating or sites backups. So we decided to create the new product which will help WordPress users</p>
-            </div>
-            <div class="about-block__images">
-                <div class="about-block__images__item" data-paralax="0.2">
-                    <img src="img/1.svg" alt="">
-                    <p class="about-block__images__item__text">Managing the content takes a lot of time</p>
-                </div>
-                <div class="about-block__images__item" data-paralax="0">
-                    <img src="img/2.svg" alt="">
-                    <p class="about-block__images__item__text">Forgot to create a
-                        <br> backup in time and lost
-                        <br>the data</p>
-                </div>
-                <div class="about-block__images__item" data-paralax="0.8">
-                    <img src="img/12.svg" alt="">
-                    <p class="about-block__images__item__text">Having to manage each site separately</p>
-                </div>
-            </div>
-        </div>
-        <div id="features" style="position: relative; top: -100px;"></div>
-        <div class="container features-block" data-navigation="1">
-            <h1 class="big-title">SiteManager <span class="green-text">Features</span></h1>
-            <div class="features-block__images">
-                <div class="features-block__images__item">
-                    <div>
-                    <img src="img/install.svg" alt="">
-                    <p class="features-block__images__item__text under-img-text">Install up to 1000 WP sites and buy domains with one click</p>
-                    </div>
-                </div>
-                <div class="features-block__images__item">
-                    <div>
-                    <img src="img/clipboard.svg" alt="">
-                    <p class="features-block__images__item__text under-img-text">Manage a content of all your websites</p>
-                    </div>
-                </div>
-                <div class="features-block__images__item">
-                    <div>
-                    <img src="img/settings.svg" alt="">
-                    <p class="features-block__images__item__text under-img-text">Auto update your WP version and all plugins</p>
-                    </div>
-                </div>
-                <div class="features-block__images__item">
-                    <div>
-                    <img src="img/comments.svg" alt="">
-                    <p class="features-block__images__item__text under-img-text">Receive a notification if you were hacked or something wrong</p>
-                    </div>
-                </div>
-                <div class="features-block__images__item">
-                    <div>
-                    <img src="img/blogging.svg" alt="">
-                    <p class="features-block__images__item__text under-img-text">Revue and manage all your posts, pages and even comments</p>
-                    </div>
-                </div>
-                <div class="features-block__images__item">
-                    <div>
-                    <img src="img/backup.svg" alt="">
-                    <p class="features-block__images__item__text under-img-text">Auto backup all your sites</p>
-                    </div>
-                </div>
-                <div class="features-block__images__item">
-                    <div>
-                    <img src="img/laptop.svg" alt="">
-                    <p class="features-block__images__item__text under-img-text">Connect all your C-panels to one dashboard</p>
-                    </div>
-                </div>
-                <div class="features-block__images__item">
-                    <div>
-                    <img src="img/browser.svg" alt="">
-                    <p class="features-block__images__item__text under-img-text">Manage all your WP components and themes</p>
-                    </div>
-                </div>
-                <div class="features-block__images__item">
-                    <div>
-                    <img src="img/management.svg" alt="">
-                    <p class="features-block__images__item__text under-img-text">Deep analytics of all your traffic and referral links</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="feedback" style="position: relative; top: -100px;"></div>
-        <div class="dark-grey-block feedback-block" data-navigation="2">
+        <div class="subscribe">
             <div class="container">
-                <div>                
-                    <h2 class="medium-title">What Our <span class="green-text">Clients Say</span></h2>
-                    <div class="slider" data-slider>
-                        <div class="slider__inner">
-                            <div class="slider__scrollable">
-                                <div class="slider__item" data-src="img/afisha3.jpg">
-                                    <h3 class="slider__item__title">Maks Stilinsky</h3>
-                                    <p class="slider__item__descr">I`ve tried SiteManager few days ago and it is really must have tool for everyone who use WP. It saves me lots of hours! Nice job, guys!</p>
-                                </div>
-                                <div class="slider__item" data-src="img/afisha3.jpg">
-                                    <h3 class="slider__item__title">Maks Stilinsky</h3>
-                                    <p class="slider__item__descr">I`ve tried SiteManager few days ago and it is really must have tool for everyone who use WP. It saves me lots of hours! Nice job, guys!</p>
-                                </div>
-                                <div class="slider__item" data-src="img/afisha3.jpg">
-                                    <h3 class="slider__item__title">Maks Stilinsky</h3>
-                                    <p class="slider__item__descr">I`ve tried SiteManager few days ago and it is really must have tool for everyone who use WP. It saves me lots of hours! Nice job, guys!</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slider__controls"></div>
+                <div class="subscribe__title">Будь в курсе всех обновлений и новостей!
+                    <br>Подписывайся!</div>
+                <div class="subscribe__socials">
+                    <div class="subscribe__socials_item"><a href=""><img src="img/Facebook.svg" alt=""></a></div>
+                    <div class="subscribe__socials_item"><a href=""><img src="img/Instagram.svg" alt=""></a></div>
+                    <div class="subscribe__socials_item"><a href=""><img src="img/Twitter.svg" alt=""></a></div>
+                    <div class="subscribe__socials_item"><a href=""><img src="img/Youtube.svg" alt=""></a></div>
+                    <div class="subscribe__socials_item"><a href=""><img src="img/VK.svg" alt=""></a></div>
+                    <div class="subscribe__socials_item"><a href=""><img src="img/reddit.svg" alt=""></a></div>
+                    <div class="subscribe__socials_item"><a href=""><img src="img/Twitch.svg" alt=""></a></div>
+                    <div class="subscribe__socials_item"><a href=""><img src="img/Discord.svg" alt=""></a></div>
+                    <div class="subscribe__socials_item"><a href=""><img src="img/steam.svg" alt=""></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="know-more">
+            <div class="container">            
+                <div class="know-more__info">
+                    <div class="know-more__info_text">
+                        <div class="know-more__info_title">Узнать больше</div>
+                        <img src="img/arrow_2.svg" alt="" class="know-more__info_arrow">
+                        <ul>
+                            <li>Выигрывай призы в ежедневных турнирах</li>
+                            <li>Найди команду скиловых игроков в нашем сообществе</li>
+                        </ul>
+                    </div>
+                    <div class="know-more__info_images">
+                        <img src="img/mobile_1.png" alt="">
+                        <img src="img/notebook_1.png" alt="">
+                    </div>
+                </div>
+
+                <div class="know-more__list">
+                    <div class="know-more__list_item">
+                        <img src="img/category_1.png" alt="">
+                        <div class="know-more__list_item_title">Прокачивай скил и получай награды</div>
+                        <div class="know-more__list_item_descr">Получай скины для CS:GO, премиум аккаунт и денежные призы просто играя в CS. Наша система поощряет скиловых и дружелюбных игроков</div>
+                    </div>
+                    <div class="know-more__list_item">
+                        <img src="img/category_2.png" alt="">
+                        <div class="know-more__list_item_title">Играй в турнирах и выигрывай реальные деньги</div>
+                        <div class="know-more__list_item_descr">Играй в турнирах от наших спонсоров и получай денежные призы или девайсы для своего ПК. Можешь играть как в соло так или в команде</div>
+                    </div>
+                    <div class="know-more__list_item">
+                        <img src="img/category_3.png" alt="">
+                        <div class="know-more__list_item_title">Найди команду своей мечты</div>
+                        <div class="know-more__list_item_descr">Знакомься с такими же скиловыми игроками как и ты, участвуйте в турнирах, поднимайтес по рейтингу и получите шанс ворваться на PRO-сцену</div>
+                    </div>
+                    <div class="know-more__list_item">
+                        <img src="img/category_4.png" alt="">
+                        <div class="know-more__list_item_title">Улучшай свой скил</div>
+                        <div class="know-more__list_item_descr">Становись лучше каждый день, благодаря нашим блогам, разборам PRO-игр и обсуждению фишек и игровой механики в нашем сообществе</div>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="form" style="position: relative; top: -100px;"></div>
-        <div class="flex light-grey-block bottom-form">
+        <div class="bottom-form">
             <div class="container">
-                <div>
-                    <h1 class="big-title">Save up to your business-<br>time and people <br>  with SiteManager</h1>
-                    <form class="sm-form">
-                        <input type="email" required class="input" placeholder="Your Email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" title="example@gmail.com">
-                        <button class="btn btn-green" type="submit">Try Trial Version </button>
+                <div class="bottom-form__title">Помимо призов по результатам закрытого beta-теста получай скины каждую неделю!</div>
+                <div class="form">
+                    <form>
+                        <input class="form__input" type="text" placeholder="Ваш Email">
+                        <button class="form__btn"><img src="img/arrow.svg" alt="">Играть</button>
                     </form>
+                    <div class="form__descr">Мы не рассылаем спам и не будем беспокоить Вас по пустякам. Только актуальные новости.</div>
                 </div>
             </div>
         </div>
     </main>
-    <footer class="flex j-c-s-b a-i-c">
+    <footer class="footer">
         <div class="container">
-            <div class="copyright"> © Serp.farm SiteManager, 2018</div>
-            <div class="footer-center">
-                <div class="help-and-supp">Help and Support:</div>
-                <img class="ml-10 mr-5" src="img/Message.svg" alt="">
-                <a class="footer-link" href="mailto:support@serp.farm">support@serp.farm</a>
-            </div>
-            <div class="footer-socials">
-                <img src="img/youtube.svg" alt="">
-                <img src="img/Twitter.svg" alt="">
-                <img src="img/Facebook.svg" alt="">
+            <div class="footer__text">Copyright Frag’Em 2018. All Rights Reserved. </div>
+            <div class="footer__socials">
+                <div class="footer__socials_item"><a href=""><img src="img/Facebook.svg" alt=""></a></div>
+                <div class="footer__socials_item"><a href=""><img src="img/Instagram.svg" alt=""></a></div>
+                <div class="footer__socials_item"><a href=""><img src="img/VK.svg" alt=""></a></div>
             </div>
         </div>
     </footer>
-    <script src="js/all.js"></script>
+<!--     <script src="js/core.js"></script>
+    <script src="js/all.js"></script> -->
 </body>
 
 </html>

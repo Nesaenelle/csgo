@@ -1,40 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
-<style type="text/css">
-	.st0{filter:url(#Adobe_OpacityMaskFilter);}
-	.st1{fill:#FFFFFF;}
-	.st2{mask:url(#mask-2);}
-</style>
-<g id="wordpress">
-	<g id="Desktop-SM" transform="translate(-1229.000000, -4027.000000)">
-		<g id="footer" transform="translate(0.000000, 4005.000000)">
-			<g id="Icon_x2F_Social_x2F_youtube" transform="translate(1228.000000, 21.000000)">
-				<g id="Mask">
-					<path id="path-1_1_" d="M6.8,6.3l3,1.7l-3,1.7V6.3z M15,2.5v11c0,0.8-0.7,1.5-1.5,1.5h-11C1.7,15,1,14.3,1,13.5v-11
-						C1,1.7,1.7,1,2.5,1h11C14.3,1,15,1.7,15,2.5z M13.7,8c0,0,0-1.9-0.2-2.8c-0.1-0.5-0.5-0.9-1-1C11.6,4,8,4,8,4S4.4,4,3.6,4.2
-						c-0.5,0.1-0.9,0.5-1,1C2.3,6.1,2.3,8,2.3,8s0,1.9,0.2,2.8c0.1,0.5,0.5,0.9,1,1C4.4,12,8,12,8,12s3.6,0,4.4-0.2
-						c0.5-0.1,0.9-0.5,1-1C13.7,9.9,13.7,8,13.7,8z"/>
-				</g>
-				<defs>
-					<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0" y="0" width="16" height="16">
-						<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
-					</filter>
-				</defs>
-				<mask maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16" id="mask-2">
-					<g class="st0">
-						<path id="path-1" class="st1" d="M6.8,6.3l3,1.7l-3,1.7V6.3z M15,2.5v11c0,0.8-0.7,1.5-1.5,1.5h-11C1.7,15,1,14.3,1,13.5v-11
-							C1,1.7,1.7,1,2.5,1h11C14.3,1,15,1.7,15,2.5z M13.7,8c0,0,0-1.9-0.2-2.8c-0.1-0.5-0.5-0.9-1-1C11.6,4,8,4,8,4S4.4,4,3.6,4.2
-							c-0.5,0.1-0.9,0.5-1,1C2.3,6.1,2.3,8,2.3,8s0,1.9,0.2,2.8c0.1,0.5,0.5,0.9,1,1C4.4,12,8,12,8,12s3.6,0,4.4-0.2
-							c0.5-0.1,0.9-0.5,1-1C13.7,9.9,13.7,8,13.7,8z"/>
-					</g>
-				</mask>
-				<g id="UI_x2F_Color_x2F_Flat_x2F_White-_x28_Default_x29_" class="st2">
-					<rect id="Base" class="st1" width="16" height="16"/>
-				</g>
-			</g>
-		</g>
-	</g>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="60px" viewBox="0 0 61 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/Youtube</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-832.000000, -2710.000000)">
+            <g id="social" transform="translate(0.000000, 2465.000000)">
+                <g id="icons/Youtube" transform="translate(832.000000, 245.000000)">
+                    <g id="Youtube">
+                        <path d="M0,30 C0,13.4314567 13.4508663,0 30.0433526,0 C46.6358389,0 60.0867052,13.4314567 60.0867052,30 C60.0867052,46.5685433 46.6358389,60 30.0433526,60 C13.4508663,60 0,46.5685433 0,30 Z" id="back" fill="#CE1312"></path>
+                        <path d="M45.68,23.9613454 C45.68,23.9613454 45.367,21.7080464 44.408,20.7157773 C43.191,19.4128493 41.827,19.4067179 41.202,19.331097 C36.724,19 30.007,19 30.007,19 L29.993,19 C29.993,19 23.276,19 18.798,19.331097 C18.172,19.4067179 16.809,19.4128493 15.591,20.7157773 C14.632,21.7080464 14.32,23.9613454 14.32,23.9613454 C14.32,23.9613454 14,26.6080775 14,29.2537877 L14,31.7349713 C14,34.3817035 14.32,37.0274137 14.32,37.0274137 C14.32,37.0274137 14.632,39.2807127 15.591,40.2729817 C16.809,41.5759097 18.408,41.5350335 19.12,41.6709468 C21.68,41.9223353 30,42 30,42 C30,42 36.724,41.989781 41.202,41.658684 C41.827,41.5820411 43.191,41.5759097 44.408,40.2729817 C45.367,39.2807127 45.68,37.0274137 45.68,37.0274137 C45.68,37.0274137 46,34.3817035 46,31.7349713 L46,29.2537877 C46,26.6080775 45.68,23.9613454 45.68,23.9613454 L45.68,23.9613454 Z" fill="#FFFFFF"></path>
+                        <polygon id="Path" fill="#CE1312" points="26.696 34.7414138 26.695 25.5534723 35.341 30.1632825"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
 </svg>
