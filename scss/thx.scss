@@ -2,6 +2,7 @@
     background: url(img/CS_bg_2.jpg);
     background-position: center top;
     background-size: cover;
+    $c: &;
     main {
         // padding-top: 50px;
         min-height: calc(100% - 60px);
@@ -135,6 +136,9 @@
             	margin: 0 0 20px 0;
             }
         }
+        #{$c} {
+        	background-size: initial;
+        }
     }
 
     @media screen and (max-width: 680px) {
@@ -143,6 +147,10 @@
         }
     }
     @media screen and (max-width: 600px) {
+    	main {
+    		display: block;
+    		min-height: calc(100% - 112px - 88px);
+    	}
         .header .logo {
             img {
                 width: 70px;
