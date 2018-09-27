@@ -46,6 +46,8 @@ main {
     .go-go {
         margin-top: 96px;
         cursor: pointer;
+        animation: go-go 1.5s infinite;
+        animation-timing-function: ease-out; 
         &__text {
             font-size: 24px;
             font-weight: bold;
@@ -128,7 +130,7 @@ main {
 
 .pyramid-bg {
     background: url(img/CS_bg.png); // margin-bottom: 50px;
-    background-position: center;
+    background-position: center top;
     margin-top: 20px;
     padding-top: 10px;
     padding-bottom: 41px;
@@ -138,15 +140,105 @@ main {
     }
 }
 
+.premium {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 510px;
+    margin: 50px auto 50px;
+    img {
+        width: 234px;
+        height: 101px;
+    }
+    &__title {
+        font-size: 34px;
+        color: #ffffff;
+        font-weight: 900; 
+    }
+    &__subtitle {
+        font-size: 16px;
+        color: #8790ab;
+    }
+}
 .pyramid {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 109px;
     position: relative;
+    &-dollars {
+        margin-top: 30px;
+        .pyramid__level-1.pyramid__level {
+            img {
+                width: 260px;
+            }
+        }
+        .pyramid__level-2 .pyramid__level {
+            .pyramid__level_img {
+                height: 130px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            img {
+                width: 200px;
+            }
+        }
+        .pyramid__level-3 .pyramid__level {
+            .pyramid__level_img {
+                height: 153px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            img {
+                width: 170px;
+            }
+        }
+
+    }
+    &-weapon{
+        .pyramid__level-1.pyramid__level {
+            img {
+                width: 260px;
+            }
+        }
+        .pyramid__level-2 .pyramid__level {
+            img {
+                width: 200px;
+            }
+        }
+        .pyramid__level-3 .pyramid__level {
+            .pyramid__level_img {
+                height: 153px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            img {
+                width: 270px;
+            }
+        }
+    }
+    &__triangle {
+        position: absolute;
+        bottom: -80px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 1300px;
+        height: 700px;
+        background: url(img/triangle.svg) center top no-repeat;
+    }
     &__level {
         text-align: center;
+        position: relative;
+        // img {
+        //     width: 100%;
+        // }
         &_img {
+            // max-width: 300px;
+            // margin: auto;
             height: 153px;
         }
         &-1 {
@@ -354,6 +446,7 @@ main {
         &_text {
             margin-top: 91px;
             position: relative;
+            width: 48%;
         }
         &_images {
             position: relative;
@@ -442,5 +535,17 @@ main {
         font-weight: 900;
         width: 70%;
         margin: 0 auto 37px;
+    }
+}
+
+@keyframes go-go {
+    0% {
+        transform: translateY(0px);
+    }
+    30% {
+        transform: translateY(12px);
+    }
+    100% {
+        transform: translateY(0px);
     }
 }
