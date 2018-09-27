@@ -57,44 +57,55 @@
                         <div class="steps__item_text">Войди в ТОП <br>и получи приз!</div>
                     </div>
                 </div>
-                <div class="pyramid">
-                    <div class="pyramid__level pyramid__level-1">
-                        <img src="img/prize_1.png" alt="">
-                        <div class="pyramid__title">Приз ТОП 1</div>
-                        <div class="pyramid__subtitle">Тут что-то написано про приз первого места! Бла-бал-бла! Все дела!</div>
+            </div>
+            <div class="pyramid-bg">
+                <div class="container"> 
+
+                    <div class="pyramid">
+                        <!-- <div class="triangle"></div>   -->
+                        <!-- <img src="img/triangle.svg" alt=""> -->
+                        <div class="pyramid__level pyramid__level-1">
+                            <img src="img/prize_1.png" alt="">
+                            <div class="pyramid__title">Приз ТОП 1</div>
+                            <div class="pyramid__subtitle">Тут что-то написано про приз первого места! Бла-бал-бла! Все дела!</div>
+                        </div>
+                        <div class="pyramid__level-2">                        
+                            <div class="pyramid__level">
+                                <div class="pyramid__level_img"><img src="img/prize_2.png" alt=""></div>
+                                <div class="pyramid__title">Приз ТОП 2</div>
+                                <div class="pyramid__subtitle">Тут что-то написано про приз второго места! Бла-бал-бла! Все дела!</div>
+                            </div>
+                            <div class="pyramid__level">
+                                <div class="pyramid__level_img"><img src="img/prize_3.png" alt=""></div>
+                                <div class="pyramid__title">Приз ТОП 3</div>
+                                <div class="pyramid__subtitle">Тут что-то написано про приз третьего места! Бла-бал-бла! Все дела!</div>
+                            </div>
+                        </div>
+                        <div class="pyramid__level-3">                        
+                            <div class="pyramid__level">
+                                <div class="pyramid__level_img"><img src="img/prize_4.png" alt=""></div>
+                                <div class="pyramid__title">Приз ТОП 10</div>
+                                <div class="pyramid__subtitle">Тут что-то написано про призы первой десятки игроков! Бла-бал-бла! Все дела!</div>
+                            </div>
+                            <div class="pyramid__level">
+                                <div class="pyramid__level_img"><img src="img/prize_6.png" alt=""></div>
+                                <div class="pyramid__title">Приз ТОП 50</div>
+                                <div class="pyramid__subtitle">Тут что-то написано про призы первой пятидесятки игроков! Бла-бал-бла! Все дела!</div>
+                            </div>
+                            <div class="pyramid__level">
+                                <div class="pyramid__level_img"><img src="img/prize_5.png" alt=""></div>
+                                <div class="pyramid__title">Приз ТОП 100</div>
+                                <div class="pyramid__subtitle">Тут что-то написано про призы первой сотни игроков! Бла-бал-бла! Все дела!</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="pyramid__level pyramid__level-2">
-                        <img src="img/prize_2.png" alt="">
-                        <div class="pyramid__title">Приз ТОП 2</div>
-                        <div class="pyramid__subtitle">Тут что-то написано про приз второго места! Бла-бал-бла! Все дела!</div>
+                    <div class="form">
+                        <form class="play-form">
+                            <input class="form__input" type="text" placeholder="Ваш Email" data-pattern="email" data-error-text="Неверно введен email">
+                            <button class="form__btn"><img src="img/arrow.svg" alt="">Играть</button>
+                        </form>
+                        <div class="form__descr">Мы не рассылаем спам и не будем беспокоить Вас по пустякам. Только актуальные новости.</div>
                     </div>
-                    <div class="pyramid__level pyramid__level-2">
-                        <img src="img/prize_3.png" alt="">
-                        <div class="pyramid__title">Приз ТОП 3</div>
-                        <div class="pyramid__subtitle">Тут что-то написано про приз третьего места! Бла-бал-бла! Все дела!</div>
-                    </div>
-                    <div class="pyramid__level pyramid__level-3">
-                        <img src="img/prize_4.png" alt="">
-                        <div class="pyramid__title">Приз ТОП 10</div>
-                        <div class="pyramid__subtitle">Тут что-то написано про призы первой десятки игроков! Бла-бал-бла! Все дела!</div>
-                    </div>
-                    <div class="pyramid__level pyramid__level-3">
-                        <img src="img/prize_5.png" alt="">
-                        <div class="pyramid__title">Приз ТОП 50</div>
-                        <div class="pyramid__subtitle">Тут что-то написано про призы первой пятидесятки игроков! Бла-бал-бла! Все дела!</div>
-                    </div>
-                    <div class="pyramid__level pyramid__level-3">
-                        <img src="img/prize_6.png" alt="">
-                        <div class="pyramid__title">Приз ТОП 100</div>
-                        <div class="pyramid__subtitle">Тут что-то написано про призы первой сотни игроков! Бла-бал-бла! Все дела!</div>
-                    </div>
-                </div>
-                <div class="form">
-                    <form class="play-form">
-                        <input class="form__input" type="text" placeholder="Ваш Email" data-pattern="email" data-error-text="Неверно введен email">
-                        <button class="form__btn"><img src="img/arrow.svg" alt="">Играть</button>
-                    </form>
-                    <div class="form__descr">Мы не рассылаем спам и не будем беспокоить Вас по пустякам. Только актуальные новости.</div>
                 </div>
             </div>
         </div>
@@ -121,19 +132,23 @@
                     <div class="know-more__info_text">
                         <div class="know-more__info_title">Узнать больше</div>
                         <img src="img/arrow_2.svg" alt="" class="know-more__info_arrow">
-                        <ul>
+                        <ul class="know-more__info_list desktop">
                             <li>Выигрывай призы в ежедневных турнирах</li>
                             <li>Найди команду скиловых игроков в нашем сообществе</li>
                         </ul>
                     </div>
                     <div class="know-more__info_images">
-                        <img src="img/mobile_1.png" alt="">
-                        <img src="img/notebook_1.png" alt="">
+                        <!-- <img src="img/mobile_1.png" alt=""> -->
+                        <img src="img/notebook.png" alt="">
                     </div>
+                    <ul class="know-more__info_list mobile">
+                        <li>Выигрывай призы в ежедневных турнирах</li>
+                        <li>Найди команду скиловых игроков в нашем сообществе</li>
+                    </ul>
                 </div>
 
                 <div class="know-more__list">
-                    <div class="know-more__list_item">
+                    <div class="know-more__list_item counter-terror-bg">
                         <img src="img/category_1.png" alt="">
                         <div class="know-more__list_item_title">Прокачивай скил и получай награды</div>
                         <div class="know-more__list_item_descr">Получай скины для CS:GO, премиум аккаунт и денежные призы просто играя в CS. Наша система поощряет скиловых и дружелюбных игроков</div>
@@ -148,9 +163,9 @@
                         <div class="know-more__list_item_title">Найди команду своей мечты</div>
                         <div class="know-more__list_item_descr">Знакомься с такими же скиловыми игроками как и ты, участвуйте в турнирах, поднимайтес по рейтингу и получите шанс ворваться на PRO-сцену</div>
                     </div>
-                    <div class="know-more__list_item">
+                    <div class="know-more__list_item terror-bg">
                         <img src="img/category_4.png" alt="">
-                        <div class="know-more__list_item_title">Улучшай свой скил</div>
+                        <div class="know-more__list_item_title">Улучшай <br>свой скил</div>
                         <div class="know-more__list_item_descr">Становись лучше каждый день, благодаря нашим блогам, разборам PRO-игр и обсуждению фишек и игровой механики в нашем сообществе</div>
                     </div>
                 </div>
