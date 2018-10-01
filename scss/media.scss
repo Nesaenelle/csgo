@@ -59,6 +59,9 @@
 }
 
 @media screen and (max-width: 1280px) {
+    .subscribe__socials {
+        width: 200px;
+    }
     .subscribe__socials_item {
         min-width: 50px;
         min-height: 50px;
@@ -317,9 +320,9 @@
         width: 48px;
         height: 48px;
     }
-    .subscribe__socials {
-        width: 635px;
-    }
+    // .subscribe__socials {
+    //     width: 635px;
+    // }
     .know-more__info_images {
         width: 50%;
         margin-top: 40px;
